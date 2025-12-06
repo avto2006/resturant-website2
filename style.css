@@ -309,7 +309,23 @@ footer {
      .sec_1 {
         justify-content: center;
      }
+     
 
+     .fav_cont {
+        display: grid;
+        gap: 8vh;
+     }
+
+     .x2  {
+        width: 200px;
+     }
+
+
+     .salad_boxs {
+        display: grid;
+        gap: 9vh;
+        margin-top: 5vh;
+     }
     
        
 
