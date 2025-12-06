@@ -1,0 +1,293 @@
+body {
+    font-family: 'Science Gothic', sans-serif;
+    align-items: center;
+    margin: 0;
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;   
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_center ul {
+    display: flex;
+    gap: 6vh;
+    margin-top: 2vh;
+    
+}
+
+.spn {
+    color: lightgreen;
+}
+
+
+
+.nav_right {
+    display: flex;
+    background-color: lawngreen;
+    width: 100px;
+    border-radius: 20px;
+    padding-left: 1vh;
+    gap: 1vh;
+    color: white;
+    max-height: 8vh;
+}
+
+.spn1 {
+    background-color: lawngreen;
+    padding: 1vh;
+    border-radius: 5px;
+    margin-right: 0.5vh;
+    color: white;
+}
+
+
+
+.nav_left:hover {
+    cursor: pointer;
+}
+
+
+.nav_center ul li a:hover {
+    cursor: pointer;
+    color: lawngreen;
+}
+
+.nav_right {
+    cursor: pointer;
+}
+
+
+.video {
+    display: flex;
+    gap: 3vh;
+}
+
+.sec_1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    align-items: center;
+    gap: 15vh;
+}
+
+.orderVid {
+    display: flex;
+    align-items: center;
+    gap: 5vh;
+}
+
+.order_now {
+    background-color: lawngreen;
+    padding: 2vh;
+    border-radius: 18px;
+    color: white;
+}
+
+.girl {
+    width: 500px;
+}
+
+.photo_area1 {
+    display: flex;
+}
+
+.com {
+    margin-right: -25vh;
+    margin-top: -30vh
+}
+
+.hh3 {
+    color: red;
+}
+
+.sec_2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.box {
+    padding: 4vh;
+    background-color: rgb(173, 223, 123);
+    border-radius: 7px;
+}
+
+.fav_cont {
+    display: flex;
+    gap: 18vh;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.bur {
+    height: 12vh;
+}
+
+.head_text3 {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.salad_boxs {
+    display: flex;
+    justify-content: center;
+    gap: 30vh;
+    text-align: center;
+    align-items: center;
+}
+
+.price {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 5vh;
+    align-items: center;
+}
+
+.prc {
+    display: flex;
+    align-items: center;
+}
+
+.s {
+    margin-right: 1vh;
+}
+
+.dl {
+    color: red;
+    margin-right: 0.5vh;
+}
+
+.sec_4 {
+    display: flex;
+    justify-content: center;
+    gap: 25vh;
+    margin-top: 25vh;
+    align-items: center;
+}
+
+.other_sec {
+    display: flex;
+    align-items: center;
+}
+
+.costumers_area {
+    display: flex;
+    align-items: center;
+}
+
+.cost {
+    width: 50px;
+} 
+
+.stars_area {
+    display: flex;
+    align-items: center;
+    margin-top: -4vh;
+}
+
+.costumer_text {
+    margin-left: 5vh;
+}
+
+.cst_str {
+    margin-right: 2vh;
+}
+
+.explore {
+    background-color: lawngreen;
+    color: white;
+    width: 120px;
+    text-align: center;
+    padding: 1.5vh;
+    border-radius: 15px;
+    margin-top: 5vh;
+}
+
+.sec_5 {
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    margin-top: 25vh;
+    align-items: center;
+    margin-left: 15vh;
+}
+
+.categories_area {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-left: 5vh;
+    gap: 5vh;
+    text-align: center;
+    color:  lawngreen ;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    align-items: center;
+    background-color: green;
+    width: 100%;
+    color: white;
+}
+
+
+.sociall {
+    display: flex;
+    gap: 2vh;
+    margin-right: 20vh;
+}
+
+.social {
+    width: 25px;
+    max-height: 25px;
+    background-color: rgb(207, 234, 207);
+    padding: 0.5vh;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.sc1 {
+    background-color: rgb(8, 71, 8);
+}
+
+
+@media (min-width: 200px) and (max-width: 500px) {
+ 
+     header {
+        display: grid;
+        text-align: center;
+     }
+
+     .nav_right {
+        display: none;
+     }
+
+     .nav_center ul {
+        gap: 5vh;
+        justify-content: center;
+     }
+       
+
+}
+
+
+@media (min-width: 501px) and (max-width: 1050px) {
+      
+
+}
