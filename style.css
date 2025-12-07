@@ -329,6 +329,17 @@ footer {
         gap: 2vh;
      }
 
+     .order_now {
+        width: 5vh;
+        height: 1.2vh;
+        padding: 3px;
+        padding-left: 1vh;
+     }
+
+     .video {
+        background-color: red;
+     }
+
      
      
 
