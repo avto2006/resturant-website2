@@ -414,6 +414,10 @@ footer {
         margin-left: 15vh;
      }
     
+
+     .com {
+        display: none;
+     }
        
 
 }
