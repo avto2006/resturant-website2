@@ -305,7 +305,8 @@ footer {
      }
 
      .nav_center ul {
-        gap: 5vh;
+        gap: 6vh;
+        margin-right: 5vh;
         justify-content: center;
      }
 
