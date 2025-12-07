@@ -399,6 +399,20 @@ footer {
         text-align: center;
         margin-right: 15vh;
      }
+
+     footer {
+        display: grid;
+       
+     }
+
+     .sociall {
+        margin-left: 20vh;
+        margin-top: 2vh;
+     }
+     
+     .soc_text {
+        margin-left: 15vh;
+     }
     
        
 
