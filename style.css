@@ -375,6 +375,30 @@ footer {
      .other_sec {
         display: none;
      }
+
+     .categories_area {
+        justify-content: center;
+        margin-right: 20vh;
+        gap: 15vh;
+     }
+
+     .pp {
+        display: none;
+     }
+
+     .sec_5 {
+        display: grid;
+     }
+
+     .explore {
+        display: none;
+     }
+
+     .text_area3 {
+        display: 10px;
+        text-align: center;
+        margin-right: 15vh;
+     }
     
        
 
