@@ -138,6 +138,10 @@ header {
     margin-top: 8vh;
 }
 
+.explore {
+    cursor: pointer;
+} 
+
 .fav_cont {
     display: flex;
     gap: 18vh;
