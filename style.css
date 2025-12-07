@@ -365,14 +365,16 @@ footer {
      }
      
      .sec_4 {
-        gap: 4vh;
+        gap: 4.5vh;
      }
 
      .photo_area2 {
         margin-left: 2vh;
      }
 
-     
+     .other_sec {
+        display: none;
+     }
     
        
 
