@@ -134,6 +134,10 @@ header {
     box-shadow: 5px 5px 5px 15px lawngreen;
 }
 
+.salad_boxs {
+    margin-top: 8vh;
+}
+
 .fav_cont {
     display: flex;
     gap: 18vh;
