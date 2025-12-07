@@ -59,16 +59,10 @@ header {
 
 
 
-.nav_left:hover {
-    cursor: pointer;
+.nav_center ul li a:hover {
+  cursor: pointer;
+  color: lawngreen;
 }
-
-.aa1:hover {
-    cursor: pointer;
-    color: lawngreen;
-    transition: 0.5s ease-in; 
-}
-
 
 
 .nav_right {
@@ -112,7 +106,8 @@ header {
 
 .com {
     margin-right: -25vh;
-    margin-top: -30vh
+    margin-top: -30vh;
+       pointer-events: none
 }
 
 .hh3 {
