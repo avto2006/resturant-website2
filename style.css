@@ -128,8 +128,10 @@ header {
 
 .box {
     padding: 8vh;
-    background-color: rgb(173, 223, 123);
+    background-color: lawngreen;
     border-radius: 7px;
+    color: white;
+    box-shadow: 5px 5px 5px 15px lawngreen;
 }
 
 .fav_cont {
@@ -273,9 +275,6 @@ footer {
     background-color: rgb(8, 71, 8);
 }
 
- .x2, .x4 {
-    background-color: rgb(212, 206, 206);
- }
 
  .x3 {
     height: 24.8vh;
