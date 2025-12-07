@@ -62,6 +62,7 @@ header {
 .nav_center ul li a:hover {
   cursor: pointer;
   color: lawngreen;
+  transition: 0.7s ease;
 }
 
 
