@@ -424,7 +424,7 @@ footer {
 }
 
 
-@media (min-width: 501px) and (max-width: 1050px) {
+@media ( min-width: 501px) and (max-width: 1050px) {
       
     header {
         justify-content: center;
