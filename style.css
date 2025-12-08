@@ -466,6 +466,13 @@ footer {
         gap: 8vh;
     }
 
+    .salad_boxs {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        justify-content: center;
+        gap: 8vh;
+    }
+
     
 
 }
