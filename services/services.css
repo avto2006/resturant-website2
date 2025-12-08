@@ -1,5 +1,18 @@
-
-
+header {
+    text-align: center;
+    margin-top: 8vh;
+}
 .form {
     display: grid;
+       gap: 2vh;
+       justify-content: center;
+       margin-top: 8vh;
+
+}
+
+.inp {
+     width: 30vh;
+    height: 3vh;
+    border-radius: 8px;
+
 }
