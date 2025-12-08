@@ -477,10 +477,13 @@ footer {
 
     .sec_4 {
         gap: 4vh;
+        margin-right: 1vh;
     }
 
-    .other_sec {
-        display: grid;
+    
+
+    .costumer_text {
+        display: none;
     }
    
 
