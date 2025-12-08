@@ -456,14 +456,16 @@ footer {
         display: none;
     }
 
-     .sec_2 {
-        display: grid;
-        background-color: green;
-     }
+    
 
-     .favourites {
-        
+    .fav_cont {
         display: grid;
-     }
+        grid-template-columns: 1fr 2fr;
+        width: 400px ;
+        justify-content: center;
+        gap: 8vh;
+    }
+
+    
 
 }
