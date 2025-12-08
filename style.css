@@ -439,4 +439,20 @@ footer {
         display: none;
     }
 
+    .sec_1 {
+        gap: 3vh;
+    }
+     
+    .text_area1 {
+        margin-left: 3vh;
+        font-size: 13px;
+    }
+
+    .girl {
+        width: 250px;
+    }
+
+    .com {
+        display: none;
+    }
 }
