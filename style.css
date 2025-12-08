@@ -455,4 +455,15 @@ footer {
     .com {
         display: none;
     }
+
+     .sec_2 {
+        display: grid;
+        background-color: green;
+     }
+
+     .favourites {
+        
+        display: grid;
+     }
+
 }
