@@ -485,8 +485,29 @@ footer {
     .costumer_text {
         display: none;
     }
-   
 
+    .sec_5 {
+        display: grid;
+    }
+
+    .explore {
+        display: none;
+    }
+
+    .pp {
+        display: none;
+    }
+   
+    .categories_area {
+        justify-content: center;
+        margin-right: 20vh;
+        gap: 25vh;
+    }
+
+
+     .text_area3 {
+        margin-left: 8vh;
+     }
 
     
 
