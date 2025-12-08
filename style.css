@@ -474,6 +474,14 @@ footer {
         gap: 8vh;
     }
 
+
+    .sec_4 {
+        gap: 4vh;
+    }
+
+    .other_sec {
+        display: grid;
+    }
    
 
 
