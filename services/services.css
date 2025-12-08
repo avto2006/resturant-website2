@@ -2,6 +2,7 @@ header {
     text-align: center;
     margin-top: 8vh;
 }
+
 .form {
     display: grid;
        gap: 2vh;
@@ -15,4 +16,31 @@ header {
     height: 3vh;
     border-radius: 8px;
     padding: 1vh;
+}
+
+.txtar {
+    width: 60vh;
+    height: 30vh;
+    min-width: 60vh;
+    min-height: 30vh;
+    max-width: 60vh;
+    max-height: 30vh;
+    border-radius: 5px;
+}
+
+.button_area {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    
+}
+
+.btn {
+    width: 20vh;
+    height: 6vh;
+    border-radius: 12px;
+    background: linear-gradient(45deg, black, gray);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
 }
