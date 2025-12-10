@@ -3,11 +3,14 @@ header {
     margin-top: 8vh;
 }
 
+
+
 .form {
     display: grid;
        gap: 2vh;
        justify-content: center;
        margin-top: 8vh;
+       
 
 }
 
@@ -19,9 +22,9 @@ header {
 }
 
 .txtar {
-    width: 60vh;
+    width: 10vh;
     height: 30vh;
-    min-width: 60vh;
+    min-width: 32vh;
     min-height: 30vh;
     max-width: 60vh;
     max-height: 30vh;
@@ -43,4 +46,10 @@ header {
     color: white;
     font-size: 18px;
     cursor: pointer;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
 }
