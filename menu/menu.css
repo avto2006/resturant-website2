@@ -79,6 +79,10 @@ main {
     text-align: center;
 }
 
+.fd {
+    width: 200px;
+}
+
 
 @media (min-width: 200px) and (max-width: 500px) {
  
