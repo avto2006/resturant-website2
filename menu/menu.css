@@ -63,6 +63,10 @@ header {
   transition: 0.7s ease;
 }
 
+.food_txt {
+    margin-top: 12vh;
+}
+
 
 .nav_right {
     cursor: pointer;
@@ -75,12 +79,48 @@ main {
     text-align: center;
 }
 
-.more {
-    text-align: center;
-}
+
 
 .fd {
     width: 200px;
+}
+
+.foods_sec {
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+    gap: 25vh;
+    
+}
+
+.x2,.x1,.x3 {
+    height: 35vh;
+}
+
+
+.box {
+    background-color: rgb(186, 185, 185);
+    padding: 10vh;
+    margin-top: 5vh;
+    border-radius: 3vh;
+    color: white;
+}
+
+p {
+    color: red;
+    text-decoration: underline;
+}
+
+.dr {
+    width: 200px;
+}
+
+h2 {
+    padding-top: 5vh;
+}
+
+.x2 h2 {
+    padding-top: 8vh;
 }
 
 
