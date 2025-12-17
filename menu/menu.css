@@ -75,6 +75,10 @@ main {
     text-align: center;
 }
 
+.more {
+    text-align: center;
+}
+
 
 @media (min-width: 200px) and (max-width: 500px) {
  
