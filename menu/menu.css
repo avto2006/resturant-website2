@@ -99,11 +99,20 @@ main {
 
 
 .box {
-    background-color: rgb(186, 185, 185);
+
     padding: 10vh;
     margin-top: 5vh;
     border-radius: 3vh;
     color: white;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgb(203, 203, 203);
 }
 
 p {
@@ -113,6 +122,10 @@ p {
 
 .dr {
     width: 200px;
+    padding: 10vh;
+    margin-top: 5vh;
+    border-radius: 3vh;
+    color: white;
 }
 
 h2 {
@@ -122,6 +135,21 @@ h2 {
 .x2 h2 {
     padding-top: 8vh;
 }
+
+.drinks_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    gap: 25vh;
+}
+
+.ff2,.ff3 {
+    margin-top: 8vh;
+}
+
+
+
 
 
 @media (min-width: 200px) and (max-width: 500px) {
