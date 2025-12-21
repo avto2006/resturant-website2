@@ -19,7 +19,7 @@ header {
     justify-content: space-around;
     align-items: center;
     margin-top: 1vh;
-    animation: headerAnimation 3s;
+    animation: headerAnimation 2s;
 }
 
 .bxxx {
@@ -107,11 +107,11 @@ header {
 }
 
 .text_area1 {
-    animation: sec_1_left 3s;
+    animation: sec_1_left 2s;
 }
 
 .photo_area1 {
-    animation: sec_1_right 3s;
+    animation: sec_1_right 2s;
 }
 
 .com {
@@ -557,6 +557,7 @@ footer {
 @keyframes sec_1_right {
      from {
           transform: translate(1000px);
+          
     }
 
     to {
