@@ -19,6 +19,7 @@ header {
     justify-content: space-around;
     align-items: center;
     margin-top: 1vh;
+    animation: headerAnimation 3s;
 }
 
 .bxxx {
@@ -103,6 +104,14 @@ header {
 
 .photo_area1 {
     display: flex;
+}
+
+.text_area1 {
+    animation: sec_1_left 3s;
+}
+
+.photo_area1 {
+    animation: sec_1_right 3s;
 }
 
 .com {
@@ -419,6 +428,13 @@ footer {
      .com {
         display: none;
      }
+      .sec_2 {
+        margin-right: 2vh;
+    }
+
+    .text_cost {
+        margin-right: 1.2vh;
+    }
        
 
 }
@@ -456,6 +472,9 @@ footer {
         display: none;
     }
 
+    .sec_2 {
+        margin-right: 2vh;
+    }
     
 
     .fav_cont {
@@ -511,4 +530,36 @@ footer {
 
     
 
+}
+
+
+@keyframes headerAnimation {
+    from {
+          transform: translate(-1000px);
+    }
+
+    to {
+         transform: translate(0);
+    }
+}
+
+@keyframes sec_1_left {
+     from {
+          transform: translate(-1000px);
+    }
+
+    to {
+         transform: translate(0);
+    }
+}
+
+
+@keyframes sec_1_right {
+     from {
+          transform: translate(1000px);
+    }
+
+    to {
+         transform: translate(0);
+    }
 }
