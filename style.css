@@ -22,7 +22,11 @@ header {
     animation: headerAnimation 2s;
 }
 
-
+.favourites {
+  animation: fadeInUp linear;
+  animation-timeline: view();
+  animation-range: entry 0% entry 40%;
+}
 
 .bxxx {
     padding-top: 3vh;
@@ -565,4 +569,15 @@ footer {
     to {
          transform: translate(0);
     }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
