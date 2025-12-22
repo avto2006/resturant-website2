@@ -118,11 +118,11 @@ header {
     animation: sec_1_right 2s;
 }
 
-.girl2{
+.girl2,.text_area3{
     animation: sec_1_left 3s;
 }
 
-.text_cost {
+.text_cost,.categories_area {
     animation: sec_1_right 3s;
 }
 
