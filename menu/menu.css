@@ -164,9 +164,12 @@ main {
 
 
     .hh1 {
-        animation: textAn 3s;
+        animation: textAn 3s forwards;
         width: 300px;
         margin: 0 auto;
+        border-radius: 10px;
+        padding: 1vh;
+
     }
    
 
@@ -234,14 +237,15 @@ main {
     }
 
     50% {
-        background-color: rgb(65, 180, 65);
+        background-color: rgb(36, 97, 36);
     }
     75% {
-        background-color: rgb(114, 197, 114);
+        background-color: rgb(24, 74, 24);
     }
 
     100% {
-         background-color: rgb(159, 191, 159);
+         background-color: green;
+         color: white;
 
     }
 }
