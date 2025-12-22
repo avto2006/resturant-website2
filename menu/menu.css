@@ -85,7 +85,7 @@ main {
     width: 200px;
 }
 
-.foods_sec {
+.foods_sec,.foods_sec2,.foods_sec3,.foods_sec4,.foods_sec5 {
     display: flex;
     align-items: center;
     margin-top: 5vh;
