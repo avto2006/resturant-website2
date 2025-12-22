@@ -297,6 +297,10 @@ footer {
     color: white;
 }
 
+.aaa1 {
+    color: white;
+}
+
 
 .sociall {
     display: flex;
@@ -335,6 +339,8 @@ footer {
  .hh4 {
     animation: txtAn 3s 3s forwards;
  }
+
+ 
 
 @media (min-width: 200px) and (max-width: 500px) {
  
@@ -669,7 +675,7 @@ footer {
     }
 
     to{
-      background-color: gray;
+      background-color: lawngreen;
       padding: 1.5vh;
       border-radius: 12px;
       color: white;

@@ -74,6 +74,36 @@ li {
 .picture {
      animation: sec_1_left 3s; 
 }
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    align-items: center;
+    background-color: green;
+    width: 100%;
+    color: white;
+}
+
+
+.sociall {
+    display: flex;
+    gap: 2vh;
+    margin-right: 20vh;
+}
+
+.social {
+    width: 25px;
+    max-height: 25px;
+    background-color: rgb(207, 234, 207);
+    padding: 0.5vh;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.sc1 {
+    background-color: rgb(8, 71, 8);
+}
 
 
 
