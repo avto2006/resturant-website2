@@ -93,6 +93,8 @@ header {
     display: flex;
     align-items: center;
     gap: 5vh;
+    justify-content: center;
+    cursor: pointer;
 }
 
 .order_now {
@@ -329,6 +331,10 @@ footer {
     width: 130px;
  }
 
+
+ .hh4 {
+    animation: txtAn 3s 3s forwards;
+ }
 
 @media (min-width: 200px) and (max-width: 500px) {
  
@@ -654,4 +660,18 @@ footer {
        transform: translate(0);
     }
 
+}
+
+
+@keyframes txtAn {
+    from {
+      background-color: white;
+    }
+
+    to{
+      background-color: gray;
+      padding: 1.5vh;
+      border-radius: 12px;
+      color: white;
+    }
 }
