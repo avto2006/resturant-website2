@@ -175,6 +175,16 @@ main {
     .menius:hover img {
   transform: scale(1.2);
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    align-items: center;
+    background-color: green;
+    width: 100%;
+    color: white;
+}
    
 
   

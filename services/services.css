@@ -104,6 +104,15 @@ footer {
 .sc1 {
     background-color: rgb(8, 71, 8);
 }
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    align-items: center;
+    background-color: green;
+    width: 100%;
+    color: white;
+}
 
 
 
