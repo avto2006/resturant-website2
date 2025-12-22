@@ -118,6 +118,14 @@ header {
     animation: sec_1_right 2s;
 }
 
+.girl2{
+    animation: sec_1_left 3s;
+}
+
+.text_cost {
+    animation: sec_1_right 3s;
+}
+
 .com {
     margin-right: -25vh;
     margin-top: -30vh;
