@@ -11,6 +11,14 @@ a {
     color: black;   
 }
 
+.n1 {
+    animation: sec_1_right 3s;
+}
+
+.n2 {
+    animation: sec_1_left 3s;
+}
+
 .aaa1 {
     text-decoration: underline;
     color: blue;
@@ -183,4 +191,28 @@ main {
         display: none;
     }
 
+}
+
+
+
+@keyframes sec_1_left {
+     from {
+          transform: translate(-1000px);
+    }
+
+    to {
+         transform: translate(0);
+    }
+}
+
+
+@keyframes sec_1_right {
+     from {
+          transform: translate(1000px);
+          
+    }
+
+    to {
+         transform: translate(0);
+    }
 }
