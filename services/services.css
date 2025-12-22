@@ -68,6 +68,11 @@ li {
 .rsr {
     width: 550px;
     border-radius: 12px;
+   
+}
+
+.picture {
+     animation: sec_1_left 3s; 
 }
 
 
@@ -78,6 +83,7 @@ li {
        justify-content: center;
        margin-top: 8vh;
        margin-top: -1vh;
+       animation: sec_1_right 3s;
        
 
 }
@@ -123,5 +129,27 @@ main {
     align-items: center;
     gap: 32vh;
     margin-top: 12vh;
+}
+
+@keyframes sec_1_left {
+     from {
+          transform: translate(-1000px);
+    }
+
+    to {
+         transform: translate(0);
+    }
+}
+
+
+@keyframes sec_1_right {
+     from {
+          transform: translate(1000px);
+          
+    }
+
+    to {
+         transform: translate(0);
+    }
 }
 
