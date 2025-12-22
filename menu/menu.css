@@ -99,12 +99,42 @@ main {
 }
 
 
-.box {
+.box{
     background-color: rgb(111, 247, 138);
     padding: 10vh;
     margin-top: 5vh;
     border-radius: 3vh;
     color: white;
+}
+
+.drr {
+    width: 2vh;
+    height: 25vh;
+}
+
+.xx2 {
+    width: 50vh;
+    margin-left: 5vh;
+}
+
+.al_box {
+         background-color: rgb(111, 247, 138);
+          margin-top: 5vh;
+    border-radius: 3vh;
+}
+
+.dr_box {
+  background-color: rgb(111, 247, 138);
+  border-radius: 3vh;
+   height: 47vh;
+    margin-top: 9vh;
+    padding-bottom:33vh;
+}
+
+.ff1 {
+    height: 47vh;
+    margin-top: 9vh;
+    padding-bottom:35vh;
 }
 
 h1 {
