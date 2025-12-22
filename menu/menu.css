@@ -214,6 +214,10 @@ h2 {
     .foods_sec {
         display: grid;
     }
+     main {
+        display: grid;
+    }
+
 
 
 @media ( min-width: 501px) and (max-width: 1050px) {
@@ -221,6 +225,9 @@ h2 {
     header {
         justify-content: center;
         align-items: center;
+    }
+    main {
+        display: grid;
     }
 
     .foods_sec {
