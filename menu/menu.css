@@ -211,12 +211,20 @@ h2 {
         display: none;
     }
 
+    .foods_sec {
+        display: grid;
+    }
+
 
 @media ( min-width: 501px) and (max-width: 1050px) {
       
     header {
         justify-content: center;
         align-items: center;
+    }
+
+    .foods_sec {
+        display: grid;
     }
 
     .nav_left {
