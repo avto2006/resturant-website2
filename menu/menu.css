@@ -100,7 +100,7 @@ main {
 
 
 .box {
-
+    background-color: rgb(111, 247, 138);
     padding: 10vh;
     margin-top: 5vh;
     border-radius: 3vh;
@@ -108,13 +108,11 @@ main {
 }
 
 h1 {
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
-main {
-    background-color: rgb(111, 247, 138);
-}
+
 
 p {
     color: red;
@@ -211,12 +209,7 @@ h2 {
         display: none;
     }
 
-    .foods_sec {
-        display: grid;
-    }
-     main {
-        display: grid;
-    }
+  
 
 
 
@@ -232,6 +225,7 @@ h2 {
 
     .foods_sec {
         display: grid;
+        gap: 1vh;
     }
 
     .nav_left {
