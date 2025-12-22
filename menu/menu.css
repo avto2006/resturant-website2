@@ -162,6 +162,12 @@ main {
         display: none;
     }
 
+
+    .hh1 {
+        animation: textAn 3s;
+        width: 300px;
+        margin: 0 auto;
+    }
    
 
   
@@ -214,5 +220,28 @@ main {
 
     to {
          transform: translate(0);
+    }
+}
+
+
+@keyframes textAn {
+    0% {
+       background-color: white;
+    }
+
+    25% {
+       background-color: rgb(177, 233, 177);
+    }
+
+    50% {
+        background-color: rgb(65, 180, 65);
+    }
+    75% {
+        background-color: rgb(114, 197, 114);
+    }
+
+    100% {
+         background-color: rgb(159, 191, 159);
+
     }
 }
