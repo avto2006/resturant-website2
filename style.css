@@ -158,6 +158,10 @@ header {
     margin-top: 10vh;
 }
 
+.sec_3 {
+    animation: fadeInUp2 3s;
+}
+
 .bur {
     height: 12vh;
 }
@@ -583,13 +587,33 @@ footer {
      }
 }
 
-@keyframes comAn {
-       from {
-          transform: translate(-700px);
-          
-    }
+@keyframes fadeInUp2{
+  from {
+     transform: translateX(800px); opacity: 0;
+     }
 
-    to {
-         transform: translate(0);
+     to {
+        transform: translate(0); opacity: 1;
+     }
+}
+
+
+@keyframes comAn {
+       0% {
+          transform: translate(-700px);  
     }
+     25% {
+
+     }
+     50%{
+
+     }
+     75%{
+
+     }
+     100%{
+         transform: translate(0);
+     }
+
+   
 }
