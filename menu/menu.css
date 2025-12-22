@@ -81,140 +81,30 @@ main {
 
 
 
-.fd {
-    width: 200px;
+
+
+.menius {
+    display: flex;
+    gap: 45vh;
+    margin-top: 10vh;
+    justify-content: center;
+  
 }
 
-.foods_sec,.foods_sec2,.foods_sec3,.foods_sec4,.foods_sec5 {
-    display: flex;
-    align-items: center;
-    margin-top: 5vh;
-    gap: 25vh;
-    justify-content: center;
+.foods_sec {
+      margin-right: 26vh;
+}
+
+.men {
+    width: 200px;
+
     
 }
 
-.box {
-    overflow: hidden;
+.me {
+    width: 400px;
+        border-radius: 12px;
 }
-
-.box img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
-}
-
-.x2,.x1,.x3 {
-    height: 35vh;
-}
-
-
-.box{
-    background-color: rgb(111, 247, 138);
-    margin-top: 5vh;
-    border-radius: 3vh;
-    color: white;
-    padding-bottom: 5vh;
-    padding: 3vh;
-}
-
-.drr {
-    width: 2vh;
-    height: 25vh;
-}
-
-.xx2 {
-    width: 50vh;
-    margin-left: 5vh;
-}
-
-.al_box {
-         background-color: rgb(111, 247, 138);
-          margin-top: 5vh;
-    border-radius: 3vh;
-}
-
-.dr_box {
-  background-color: rgb(111, 247, 138);
-  border-radius: 3vh;
-   height: 47vh;
-    margin-top: 9vh;
-    padding-bottom:33vh;
-}
-
-.ff1 {
-    height: 47vh;
-    margin-top: 9vh;
-    padding-bottom:35vh;
-}
-
-h1 {
-    color: black;
-    text-decoration: underline;
-}
-
-
-
-p {
-    color: red;
-    text-decoration: underline;
-}
-
-.dr {
-    width: 200px;
-    padding: 10vh;
-    margin-top: 5vh;
-    border-radius: 3vh;
-    color: white;
-}
-
-h2 {
-    padding-top: 5vh;
-}
-
-.x2 h2 {
-    padding-top: 8vh;
-}
-
-.drinks_sec {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5vh;
-    gap: 25vh;
-}
-
-.alchohol_sec {
-     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5vh;
-    gap: 18vh;
-    margin-left: 3vh;
-}
-
-.drr {
-
-     width: 200px;
-    padding: 10vh;
-    margin-top: 5vh;
-    border-radius: 3vh;
-    color: white;
-}
-
-.r2 {
-    margin-top: 7vh;
-}
-
-.r2,.r3 {
-    width: 280px;
-}
-
-.ff2,.ff3 {
-    margin-top: 8vh;
-}
-
 
 
 
