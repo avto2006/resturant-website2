@@ -141,6 +141,12 @@ main {
         display: none;
     }
 
+    .menius {
+        display: grid;
+        gap: 5vh;
+        margin-left: 5vh;
+    }
+
   
 
 
