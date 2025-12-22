@@ -122,8 +122,16 @@ header {
     animation: sec_1_left 3s;
 }
 
-.text_cost,.categories_area,.soc_text {
+.text_cost,.categories_area,.soc_text,.video {
     animation: sec_1_right 3s;
+}
+
+.order_now {
+    animation: ord 3s;
+}
+
+.video {
+    animation: vd 3s;
 }
 
 .com {
@@ -624,4 +632,26 @@ footer {
      }
 
    
+}
+
+
+@keyframes ord {
+    from {
+        transform: translate(-100px);
+    }
+
+    to {
+       transform: translate(0);
+    }
+}
+
+@keyframes vd {
+ from {
+        transform: translate(100px);
+    }
+
+    to {
+       transform: translate(0);
+    }
+
 }
