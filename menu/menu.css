@@ -126,6 +126,19 @@ main {
         justify-content: center;
      }
 
+      .menius {
+        display: grid;
+        gap: 5vh;
+        margin-left: 16vh;
+        justify-content: center;
+        
+    }
+
+    .me {
+        width: 300px; 
+    
+    }
+
     }
 
      header {
@@ -141,11 +154,7 @@ main {
         display: none;
     }
 
-    .menius {
-        display: grid;
-        gap: 5vh;
-        margin-left: 5vh;
-    }
+   
 
   
 
