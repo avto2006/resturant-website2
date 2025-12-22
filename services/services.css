@@ -170,6 +170,188 @@ main {
     margin-top: 12vh;
 }
 
+
+@media (min-width: 200px) and (max-width: 500px) {
+ 
+     header {
+        display: grid;
+        text-align: center;
+     }
+
+     .nav_right {
+        display: none;
+     }
+
+     .nav_center ul {
+        gap: 6vh;
+        margin-right: 5vh;
+        justify-content: center;
+     }
+
+     .girl {
+        width: 170px;
+     }
+
+     .com {
+        width: 200px;
+     }
+
+     .sec_1 {
+        justify-content: center;
+        gap: 3vh;
+     }
+     .vd {
+         display: none;
+     }
+
+     .orderVid {
+        gap: 2vh;
+     }
+
+     .order_now {
+        width: 5vh;
+        height: 1.2vh;
+        padding: 3px;
+        padding-left: 1vh;
+     }
+
+
+     
+     
+
+     .fav_cont {
+        display: grid;
+        gap: 8vh;
+     }
+
+     .x2  {
+        width: 200px;
+     }
+
+
+     .salad_boxs {
+        display: grid;
+        gap: 9vh;
+        margin-top: 5vh;
+     }
+
+     .text_area1 {
+           font-size: 8px;
+     }
+
+     .girl2 {
+          width: 170px;
+     }
+     
+     .sec_4 {
+        gap: 4.5vh;
+     }
+
+     .photo_area2 {
+        margin-left: 2vh;
+     }
+
+     .other_sec {
+        display: none;
+     }
+
+     .categories_area {
+        justify-content: center;
+        margin-right: 20vh;
+        gap: 15vh;
+     }
+
+     .pp {
+        display: none;
+     }
+
+     .sec_5 {
+        display: grid;
+     }
+
+     .explore {
+        display: none;
+     }
+
+     .text_area3 {
+        display: 10px;
+        text-align: center;
+        margin-right: 15vh;
+     }
+
+     footer {
+        display: grid;
+       
+     }
+
+     .sociall {
+        margin-left: 20vh;
+        margin-top: 2vh;
+     }
+     
+     .soc_text {
+        margin-left: 11vh;
+     }
+    
+
+     .com {
+        display: none;
+     }
+      .sec_2 {
+        margin-right: 2vh;
+    }
+
+    .text_cost {
+        margin-right: 1.2vh;
+    }
+
+    
+    main {
+        display: grid;
+        gap: 7vh;
+    }
+
+    .rsr {
+        width: 300px;
+    }
+
+  
+       
+
+}
+
+
+@media ( min-width: 501px) and (max-width: 1050px) {
+      
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_left {
+        margin-right: 7vh;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+    .sec_1 {
+        gap: 3vh;
+    }
+     
+    .text_area1 {
+        margin-left: 3vh;
+        font-size: 13px;
+    }
+
+    
+
+
+    
+
+}
+
 @keyframes sec_1_left {
      from {
           transform: translate(-1000px);
