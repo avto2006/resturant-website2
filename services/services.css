@@ -374,3 +374,23 @@ main {
     }
 }
 
+@media ( min-width: 501px) and (max-width: 1050px) {
+      
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_left {
+        margin-right: 7vh;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+    main {
+        gap: 3vh;
+    }
+
+}
