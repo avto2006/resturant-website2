@@ -263,3 +263,37 @@ footer {
 
     }
 }
+
+
+@media ( min-width: 501px) and (max-width: 1050px) {
+      
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav_left {
+        margin-right: 7vh;
+    }
+
+    .nav_right {
+        display: none;
+    }
+
+   
+    .menius {
+        gap: 12vh;
+        justify-content: center;
+    }
+
+    .me {
+        width: 350px;
+    }
+
+    .hh1 {
+        margin-right: 32vh;
+    }
+
+   
+
+}
