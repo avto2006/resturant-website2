@@ -270,6 +270,7 @@ footer {
     header {
         justify-content: center;
         align-items: center;
+        margin-right: 10vh;
     }
 
     .nav_left {
@@ -282,12 +283,13 @@ footer {
 
    
     .menius {
-        gap: 12vh;
+        gap: 15vh;
         justify-content: center;
+        margin-left: 5vh;
     }
 
     .me {
-        width: 350px;
+        width: 290px;
     }
 
     .hh1 {
