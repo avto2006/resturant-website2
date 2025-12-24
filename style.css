@@ -349,6 +349,10 @@ footer {
     color: white;
  }
 
+ .x3,.x4 {
+    height: 29vh;
+ }
+
  .ppp {
     margin-bottom: 5vh;
  }
