@@ -381,6 +381,23 @@ main {
         align-items: center;
     }
 
+    .rsr {
+        width: 500px;
+    }
+
+    .form {
+        width: 300px;
+        gap: 1px;
+    }
+    main {
+        gap: 5vh;
+    }
+
+    .inp {
+        width: 200px;
+        height: 30px;
+    }
+
     .nav_left {
         margin-right: 7vh;
     }
