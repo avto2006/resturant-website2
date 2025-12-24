@@ -382,15 +382,21 @@ main {
     }
 
     .rsr {
-        width: 500px;
+        width: 600px;
     }
 
     .form {
         width: 300px;
-        gap: 1px;
+        gap: 12px;
     }
     main {
         gap: 5vh;
+    }
+
+    .btn {
+        width: 200px;
+        height: 50px;
+        margin-top: 1vh;
     }
 
     .inp {
