@@ -342,12 +342,19 @@ footer {
  }
 
  .meniuu {
-    margin-top: 2vh;
     padding: 1vh;
     border-radius: 12px;
     border: none;
     background-color: rgb(145, 219, 34);
     color: white;
+ }
+
+ .ppp {
+    margin-bottom: 5vh;
+ }
+
+ .o {
+    margin-bottom: 7vh;
  }
 
  .u {
